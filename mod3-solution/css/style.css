@@ -1,0 +1,153 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: gray;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: orange;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin: 15px auto 15px auto;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list li {
+  align-self: center;
+  font-size: 1.2em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END HEADER */
+
+/* main body*/
+#chicken{
+  background-color: lightblue;
+  margin: 15px auto 15px auto; 
+}
+#beef{
+  background-color: lightblue;
+  margin: 15px auto 15px auto;
+}
+#sushi{
+  background-color: lightblue;
+  margin: 15px auto 15px auto;
+}
+#content-fields{
+  font-size: 1.1em;
+  margin: 25px auto 25px auto;
+}
+#menu-title{
+  text-transform: uppercase;
+  margin: 25px auto 25px auto;
+  font-size: 1.5em;
+}
+#chicken p.text-center{
+  text-transform: uppercase;
+  margin: 15px auto 15px auto;
+}
+#beef p.text-center{
+  text-transform: uppercase;
+  margin: 15px auto 15px auto;
+}
+#sushi p.text-center{
+  text-transform: uppercase;
+  margin: 15px auto 15px auto;
+}
+/* end main body*/
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+}
+button{
+  width: 40px;
+  height: 40px;
+}
+button:hover{
+  background-color: gray;
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+}
